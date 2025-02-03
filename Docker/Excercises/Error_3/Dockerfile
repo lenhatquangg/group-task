@@ -1,0 +1,4 @@
+FROM alpine
+ENV DIRPATH=/path
+WORKDIR $DIRPATH
+RUN pwd
